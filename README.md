@@ -7,7 +7,7 @@
 > A Laravel-Vue SPA starter project template.
 
 <p align="center">
-<img src="https://ibb.co/PW723Kd">
+<img src="https://i.ibb.co/SmhkWbz/image.png">
 </p>
 
 ## Features
