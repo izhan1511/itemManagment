@@ -7,6 +7,10 @@ import App from '~/components/App'
 import '~/plugins'
 import '~/components'
 
+import VueListPicker from "vue-list-picker";
+
+Vue.use(VueListPicker);
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

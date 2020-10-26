@@ -20,9 +20,13 @@ Route::group(['middleware' => 'auth:api'], function () {
 
     Route::patch('settings/profile', 'Settings\ProfileController@update');
     Route::patch('settings/password', 'Settings\PasswordController@update');
+
+    Route::post('/item', 'ItemsController@create');
+    Route::get('/item', 'ItemsController@show');
+
 });
 
-Route::group(['middleware' => 'guest:api'], function () {
+Route::group(['middleware' => 'guest:api'], function () { 
     Route::post('login', 'Auth\LoginController@login');
     Route::post('register', 'Auth\RegisterController@register');
 
