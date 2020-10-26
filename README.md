@@ -1,15 +1,18 @@
 # Laravel-Vue SPA 
 
-<a href="https://travis-ci.org/cretueusebiu/laravel-vue-spa"><img src="https://travis-ci.org/cretueusebiu/laravel-vue-spa.svg?branch=master" alt="Build Status"></a>
-<a href="https://packagist.org/packages/cretueusebiu/laravel-vue-spa"><img src="https://poser.pugx.org/cretueusebiu/laravel-vue-spa/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/cretueusebiu/laravel-vue-spa"><img src="https://poser.pugx.org/cretueusebiu/laravel-vue-spa/v/stable.svg" alt="Latest Stable Version"></a>
 
-> A Laravel-Vue SPA starter project template.
+> Upwork Task in Laravel 7
 
 <p align="center">
 <img src="https://i.ibb.co/SmhkWbz/image.png">
 </p>
 
+
+## Upwork task
+
+I just mention everything here for better understanding
+ 
+ 
 ## Features
 
 - Laravel 7 + Vue + VueRouter
@@ -19,7 +22,7 @@
 ## Installation
 
 - `git clone https://github.com/izhan1511/itemManagment.git`
-- Edit `.env` and set your database connection details
+- Edit `.env` and set your database connection details (create database and set database configration in .env)
 - (When installed via git clone or download, run `php artisan key:generate` and `php artisan jwt:secret`)
 - `php artisan migrate`
 - `npm install`
@@ -42,8 +45,3 @@ npm run hot
 npm run production
 ```
 
-
-## Upwork task
-
-I just mention everything here for better understanding
- 
